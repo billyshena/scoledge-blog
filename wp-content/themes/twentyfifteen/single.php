@@ -23,7 +23,7 @@ wp_head();
             Aller sur scoledge.com
         </a>
         <div class="logo">
-            <a href="javascript:;">
+            <a href="<?php echo get_site_url(); ?>">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/scoledge-logo.png" alt="Scolege logo" width="80px"/>
             </a>
         </div>
