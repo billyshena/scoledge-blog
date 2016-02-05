@@ -5986,9 +5986,13 @@ main#main{
     width:1000px;
     margin:0 auto;
     position:relative;
-    padding-top:20px;
+    padding:50px 0px;
 }
 
+
+.clearfix{
+	clear:both;
+}
 
 
 img{
@@ -6140,7 +6144,7 @@ img.attachment-post-thumbnail{
 
 .article-container{
 
-    float:left;
+    display:inline-block;
     width:33.333333%;
 
 }
