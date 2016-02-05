@@ -11,7 +11,7 @@ $id = get_the_ID();
 $post = get_post($id);
 $prev_post = get_previous_post();
 $next_post = get_next_post();
-$url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'large');
+$url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'full');
 wp_head();
 ?>
 
