@@ -1586,6 +1586,27 @@ img.aligncenter {
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.05), 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
 }
 
+.hentry-bg{
+	position:absolute;
+	right:0;
+	left: 0;
+	bottom:0;
+	top:0;
+	background-size:cover;
+
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
 .hentry.has-post-thumbnail {
 	padding-top: 0;
 }
@@ -6148,6 +6169,14 @@ img.attachment-post-thumbnail{
 	cursor:pointer;
     width:33%;
 
+}
+
+.article-container:hover .hentry-bg{
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: scale(1.5);
 }
 
 

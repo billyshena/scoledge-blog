@@ -21,8 +21,9 @@ $url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'large');
 
 
 <article
-    style="background-image: url(<?php echo $url[0]; ?>)"
     id="post-<?php the_ID();?>" <?php post_class(); ?>>
+
+    <div class="hentry-bg" style="background-image: url(<?php echo $url[0]; ?>)"></div>
 
 	<header class="entry-header">
 		<?php
