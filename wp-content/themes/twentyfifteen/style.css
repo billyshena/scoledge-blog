@@ -6144,9 +6144,9 @@ img.attachment-post-thumbnail{
 
 .article-container{
 
-    display:inline-block;
+    float:left;
 	cursor:pointer;
-    width:33.333333%;
+    width:33%;
 
 }
 
